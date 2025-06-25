@@ -14,3 +14,8 @@ function putarRoda() {
   const acak = Math.floor(Math.random() * tantangan.length);
   hasil.innerText = tantangan[acak];
 }
+
+
+const bgm = new Audio("audio/hbd.mp3");
+bgm.loop = true;
+bgm.play();
